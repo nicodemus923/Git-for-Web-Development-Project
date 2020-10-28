@@ -1,0 +1,101 @@
+https://codepen.io/nicodemus923/pen/XWKgLqw
+
+1. What is Semantic HTML? 
+        Used for description of how the website is laid out and its function.
+ 
+2. What is HTML used for? 
+        HTML is one of the languages we use for web development. HTML is what we call a "markup language" (as opposed to a "programming" language like JavaScript or Python). This means that it is specifically designed to display data in a graphical form (rather than execute tasks).
+
+3. What is an attribute and where do we put it? 
+they describe the tag and they come after the tag declaration
+
+4. What is the h1 tag used for? How many times should I use it on a page? It's used to highlight the most important text on the page by making it the biggest. Should only be used once.
+ 
+5. Name two tags that have required attributes: the <a> tag and <img> tag
+
+6. What do we put in the head of our HTML document? all style and reference information: language, stylsheets, etc. 
+
+7. What is an id? a descriptor that can be called in CSS once to describe an element.
+
+8. What elements can I add an id to? 
+          div, p, h1
+
+9. How many times can I use the same id on a page? one time
+
+10. What is a class? 
+an attribute of an element created by the user to specify something further
+
+11. What elements can I add a class to? div, p, h1
+
+12. How many times can I use the same class on a page? infinitely 
+
+13. How do I get my link to open in a new tab? <p>If you set the target attribute to "_blank", the link will open in a new browser window or a new tab.</p>
+
+14. What is the alt attribute in the image tag used for? to describe elements in plain text. 
+
+15. How do I reference an id? #id
+
+16. What is the difference between a section and a div. div is "block," section isn"inline"
+
+    17. What is CSS used for? styling HTML elements
+
+    18. How to we select an element? Example - every h2 on the page *h2{}
+
+    19. What is the difference between a class and an id? - Give me an example of when I might use each one. and id when you have an element you want to call out once and a class when you want to affect an element that's prevalant within the page and may need to change or be called multiple times.
+ 
+    20. How do we select classes in CSS? className{} as defined by the HTML
+
+    21. How do we select a p element with a single class of “human””? p className{}
+
+    22. What is a parent child selector? When would this be useful? where an element is a child of another. When you want to affect multiple elements at once or if you want to affect select elements in certain hierarchies without affecting everything. 
+
+    23. How do you select all links within a div with the class of sidebar? call the class that's defined in the sidebar? I'm not sure I understand the question
+
+    24. What is a pseudo selector? pseudo-class is a keyword added to a selector that specifies a special state of the selected elements
+
+    25. What do we use the change the spacing between lines? the line-height property
+
+    26. What do we use to change the spacing between letters? letter-spacing: value;
+
+    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize? text-transform: uppercase, lowercase, capitalize;
+
+    28. How do I add a 1px border around my div that is dotted and black? border-style: dotted; border: 1px;
+
+    29. How do I select everything on the page? *{}
+
+    30. How do I write a comment in CSS? /* */
+
+    31. How do I find out what file I am in, when I am using the command line? pwd
+
+    32. Using the command line - how do I see a list of files/folders in my current folder? ls or ls -l
+
+    33. How do I remove a file via the command line? Why do I have to be careful with this? rm, rm -r, rm -r -f .... because there's no going back after it's deleted like you might see with most GUIs. 
+
+    34. Why should I use version control? In case you want to go back to earlier versions of your commits. 
+
+    35. How often should I commit to github? every 20 mins. or so or after every time I want to add something significant to the repo. 
+
+    36. What is the command we would use to push our repo up to github? git push -u origin "first-last"
+
+    37. Walk me through Lambda's git flow. 
+
+Fork - making your own copy of a repo
+git clone  :  Clone - downloading something to computer from GitHub
+git checkout -b “first-last”:  make own Branch. Your version of the project
+
+git add
+git commit: (commit) save changes to local repo (mine)
+
+push - taking a local repo and putting it on the cloud or GitHub
+git push -u origin “first-last”
+
+merge - combines branches into the original 
+
+
+Stretch Questions
+
+    1. What is the difference between an inline element and a block element? block kick all elements off of its line and inline doesn't. 
+    2. What happens when an element is positioned absolutely? An element with position: absolute; is positioned relative to the nearest positioned ancestor (instead of positioned relative to the viewport, like fixed).
+    3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+    4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+    5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them? 
